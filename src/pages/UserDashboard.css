@@ -1,0 +1,312 @@
+/* Homepage Container */
+.homepage-container {
+font-family: 'Segoe UI', sans-serif;
+background: #f4f6f9;
+color: #333;
+}
+
+/* Hero */
+.hero {
+background: linear-gradient(135deg, #ffcc00, #ff7043);
+color: white;
+padding: 60px 20px;
+text-align: center;
+border-bottom: 4px solid #333;
+}
+
+.hero-content h1 {
+font-size: 2.5rem;
+margin-bottom: 20px;
+font-weight: bold;
+}
+
+.hero-content p {
+font-size: 1.1rem;
+margin-bottom: 30px;
+font-weight: 300;
+}
+
+.hero-btn {
+padding: 12px 30px;
+font-size: 1rem;
+font-weight: 600;
+background-color: white;
+color: #ffcc00;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+transition: 0.3s ease;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.hero-btn:hover {
+background-color: #ffcc00;
+color: black;
+}
+
+/* Features */
+.features {
+padding: 80px 20px;
+text-align: center;
+background: white;
+}
+
+.features h2 {
+font-size: 2.5rem;
+color: #ffcc00;
+margin-bottom: 50px;
+font-weight: bold;
+}
+
+.feature-grid {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 40px;
+}
+
+.feature-box {
+background: white;
+padding: 30px 20px;
+border-radius: 16px;
+width: 250px;
+text-align: center;
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+border: 2px solid #333;
+transition: 0.3s ease;
+}
+
+.feature-box:hover {
+transform: translateY(-10px);
+}
+
+.icon {
+font-size: 3rem;
+margin-bottom: 15px;
+color: #ffcc00;
+}
+
+.feature-box h3 {
+font-size: 1.3rem;
+margin-bottom: 10px;
+color: #333;
+}
+
+.feature-box p {
+font-size: 0.95rem;
+color: #444;
+}
+
+/* Offers Section */
+.offers-section {
+padding: 2rem;
+background-color: white;
+text-align: center;
+}
+
+.offers-grid {
+display: flex;
+gap: 1.5rem;
+justify-content: center;
+flex-wrap: wrap;
+margin-top: 1rem;
+}
+
+.offer-card {
+background: white;
+padding: 1rem;
+border-radius: 12px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+width: 280px;
+transition: transform 0.3s;
+}
+
+.offer-card:hover {
+transform: translateY(-5px);
+}
+
+
+
+
+.redeem-btn {
+background-color: #ffcc00;
+color: white;
+border: none;
+padding: 0.6rem 1.2rem;
+margin-top: 0.5rem;
+border-radius: 8px;
+cursor: pointer;
+}
+
+.redeem-btn:hover {
+background-color: #0aca3a;
+}
+
+.redeem-btn:disabled {
+background-color: #aaa;
+cursor: not-allowed;
+}
+
+.redeemed-section {
+margin-top: 3rem;
+max-width: 600px;
+margin-left: auto;
+margin-right: auto;
+background: #ffffff;
+padding: 1.5rem;
+border-radius: 12px;
+box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+text-align: left;
+}
+
+.redeemed-section h3 {
+font-size: 1.5rem;
+color: #28a745;
+display: flex;
+align-items: center;
+margin-bottom: 1rem;
+}
+
+.redeemed-section h3::before {
+content: "🎉";
+margin-right: 0.5rem;
+font-size: 1.5rem;
+}
+
+.redeemed-section ul {
+list-style: none;
+padding-left: 0;
+}
+
+.redeemed-section li {
+font-size: 1.1rem;
+margin-bottom: 0.75rem;
+background: #e8f5e9;
+padding: 0.8rem 1rem;
+border-left: 4px solid #28a745;
+border-radius: 8px;
+color: #2e7d32;
+}
+/* Footer Section */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap; /* Prevent wrapping of elements */
+  gap: 30px;
+}
+
+.footer-section {
+  flex: 1 1 18%; /* Adjust the width of each section */
+  margin-right: 20px;
+}
+
+.footer-section h3 {
+  font-size: 1.5rem;
+  color: #ffcc00;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+  color: #ffcc00;
+}
+
+/* Social Icons - Vertical */
+.footer-section .social-icons {
+  display: flex;
+  flex-direction: column; /* Stack the icons vertically */
+  gap: 10px; /* Space between icons */
+}
+
+.footer-section .social-icons a {
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section .social-icons a:hover {
+  color: #ffcc00;
+}
+
+.footer-bottom {
+  font-size: 0.9rem;
+  color: #aaa;
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.footer-bottom a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  color: #ffcc00;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section {
+    flex: 1 1 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .footer-bottom {
+    margin-top: 30px;
+  }
+}
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+.hero-content h1 {
+font-size: 2rem;
+}
+
+.feature-grid {
+flex-direction: column;
+align-items: center;
+}
+
+.feature-box {
+width: 90%;
+}
+
+.cta-btn {
+width: 100%;
+}
+
+.offer-card {
+width: 90%;
+}
+}

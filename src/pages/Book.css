@@ -1,0 +1,171 @@
+/* General Body Styling */
+body {
+  background-color: #ffffff; /* Light background */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #000; /* Black text */
+  margin: 0;
+  padding: 0;
+}
+
+/* Heading Styling */
+h2 {
+  font-weight: bold;
+  font-size: 3rem; /* Larger font size for better visibility */
+  background: linear-gradient(90deg, #f1c40f, #ffae00, #000000); /* Smooth yellow to black gradient */
+  background-clip: text; /* Standard property for compatibility */
+  -webkit-background-clip: text; /* Clip the gradient to the text */
+  -webkit-text-fill-color: transparent; /* Make the gradient visible */
+  text-align: center; /* Center-align the text */
+  margin-bottom: 1.5rem; /* Add more spacing below the heading */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle shadow for depth */
+  letter-spacing: 2px; /* Add spacing between letters for a modern look */
+  line-height: 1.2; /* Adjust line height for better readability */
+  text-transform: uppercase; /* Make the text uppercase for emphasis */
+}
+
+/* Card Styling */
+.card {
+  background: linear-gradient(145deg, #ffffff, #f1f1f1); /* Subtle gradient */
+  border-radius: 20px; /* Rounded corners */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  border: none; /* Remove border */
+  overflow: hidden; /* Ensure content stays within rounded corners */
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Lift the card on hover */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+/* Card Image */
+.card img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 200px;
+  object-fit: cover; /* Ensure image fits nicely */
+  transition: transform 0.3s ease;
+}
+
+.card:hover img {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Card Content */
+.card .card-body {
+  padding: 1.5rem;
+  text-align: center; /* Center-align content */
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #000; /* Black text */
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  color: #555; /* Medium gray text */
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Button Styling */
+.btn-primary {
+  background-color: #000000; /* Black background */
+  color: #ffffff; /* White text */
+  border: none;
+  font-weight: 600;
+  border-radius: 30px;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #f1c40f; /* Yellow on hover */
+  color: #000000; /* Black text */
+  box-shadow: 0 0 10px #f1c40f88; /* Yellow glow */
+}
+
+.btn-success {
+  background-color: #f1c40f; /* Yellow background */
+  color: #000000; /* Black text */
+  border: none;
+  font-weight: 600;
+  border-radius: 30px;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #000000; /* Black on hover */
+  color: #ffffff; /* White text */
+  box-shadow: 0 0 10px #00000088; /* Black glow */
+}
+
+/* Carousel */
+.carousel {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.carousel img {
+  border-radius: 12px;
+}
+
+/* Form Inputs */
+.form-control,
+.form-select {
+  border-radius: 12px;
+  border: 1px solid #f1c40f44; /* Light yellow border */
+  background-color: #fffefc; /* Slightly off-white background */
+  color: #000; /* Black text */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #f1c40f; /* Yellow border on focus */
+  box-shadow: 0 0 8px rgba(241, 196, 15, 0.4); /* Yellow glow */
+}
+
+/* Labels */
+label {
+  font-weight: 600;
+  margin-top: 10px;
+  color: #000000; /* Black text */
+}
+
+/* Modal Styling */
+.modal-header {
+  background-color: #f1c40f; /* Yellow background */
+  color: #000000; /* Black text */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.modal-content {
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #ffffff; /* White background */
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Shadow Utility */
+.shadow {
+  box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 1.5rem;
+  }
+
+  .btn-primary,
+  .btn-success {
+    width: 100%; /* Full width buttons on smaller screens */
+  }
+}
+

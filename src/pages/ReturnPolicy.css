@@ -1,0 +1,66 @@
+
+.return-policy-container {
+  padding: 2rem;
+  background-color: #f4f8fc;
+  font-family: 'Segoe UI', sans-serif;
+  color: #1e1e1e;
+  min-height: 100vh;
+}
+
+.return-policy-hero {
+  text-align: center;
+background: linear-gradient(135deg, #ffcc00, #ff7043);
+  color: white;
+  padding: 2.5rem 1rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+.return-policy-hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.return-policy-hero p {
+  font-size: 1.2rem;
+  opacity: 0.95;
+}
+
+.return-policy-content {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.07);
+}
+
+.return-section h2 {
+  font-size: 1.8rem;
+  color: #004aad;
+  margin-bottom: 1rem;
+}
+
+.return-section p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.return-section ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1.5rem;
+}
+
+.return-section ul li {
+  font-size: 1rem;
+  padding: 0.5rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.return-section a {
+  color: #004aad;
+  text-decoration: underline;
+}

@@ -1,0 +1,367 @@
+.container {
+  padding: 2rem;
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+}
+
+.form-container {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.form-field {
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.upload-button {
+  background-color: #1976d2;
+  color: white;
+  margin-top: 0.5rem;
+}
+
+.image-preview-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.image-preview {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border: 2px solid #fdd835; /* Yellow border */
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.preview-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.delete-preview-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #f44336; /* Red background */
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.delete-preview-button:hover {
+  background-color: #d32f2f; /* Darker red on hover */
+  transform: scale(1.1);
+}
+
+.delete-image-icon {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  padding: 3px;
+  transition: background-color 0.3s;
+}
+
+.delete-image-icon:hover {
+  background-color: rgba(255, 0, 0, 0.7);
+  color: white;
+}
+
+.submit-btn {
+  background-color: #2e7d32;
+  color: white;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.table-container {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.table-header {
+  background-color: #eeeeee;
+  font-weight: bold;
+}
+
+.table-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.icon-btn.edit-btn {
+  color: #1976d2;
+}
+
+.icon-btn.delete-btn {
+  color: #d32f2f;
+}
+
+
+.form-container {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.form-title {
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.upload-button {
+  width: fit-content;
+  margin-top: 8px;
+}
+
+.image-preview-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.image-preview {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border: 2px solid #fdd835; /* Yellow border */
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.preview-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.delete-preview-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #f44336; /* Red background */
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.delete-preview-button:hover {
+  background-color: #d32f2f; /* Darker red on hover */
+  transform: scale(1.1);
+}
+
+.image-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.delete-image-btn {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  background-color: rgba(255, 0, 0, 0.75) !important;
+  color: white;
+  min-width: 28px !important;
+  height: 28px !important;
+  padding: 0 !important;
+  font-size: 16px;
+  line-height: 1;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.submit-btn {
+  background-color: #1976d2;
+  color: white;
+  font-weight: 500;
+  margin-top: 12px;
+}
+
+.table-container {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Scrollable table container */
+.table-container {
+  overflow-x: auto; /* Enable horizontal scrolling */
+  margin-top: 20px;
+  border: 1px solid #ddd; /* Optional: Add a border around the table */
+  border-radius: 8px;
+}
+
+/* Table styling */
+.vehicle-table table {
+  width: 100%; /* Ensure the table takes full width */
+  min-width: 800px; /* Set a minimum width for the table */
+  border-collapse: collapse;
+}
+
+.vehicle-table th,
+.vehicle-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.vehicle-table th {
+  background-color: #fdd835; /* Yellow background for header */
+  color: #333; /* Dark text for header */
+  font-weight: bold;
+}
+
+.vehicle-table td {
+  color: #555; /* Slightly lighter text for table content */
+}
+
+.vehicle-table tr:hover {
+  background-color: #f9f9f9; /* Light gray background on hover */
+}
+
+.table-header {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.table-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.icon-btn {
+  padding: 6px;
+  border-radius: 8px;
+}
+
+.edit-btn {
+  color: black;
+  background-color: rgba(25, 118, 210, 0.1);
+}
+
+.delete-btn {
+  color: #d32f2f;
+  background-color: rgba(211, 47, 47, 0.1);
+}
+
+/* Add Vehicle Button */
+.add-vehicle-button {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.add-vehicle-button:hover {
+  background-color: #fdd835; /* Yellow */
+  color: black;
+}
+
+/* Ather 450X - Ather Energy - 450X - 1
+
+TVS iQube - TVS Motor Company - iQube - 2
+
+Revolt RV400 - Revolt Motors - RV400 - 3
+
+Okinawa PraisePro - Okinawa Autotech - PraisePro - 4
+
+Bajaj Chetak Electric - Bajaj Auto - Chetak - 5
+
+Hero Electric Optima - Hero Electric - Optima - 6
+
+Simple One - Simple Energy - One - 7
+
+Ultraviolette F77 - Ultraviolette Automotive - F77 - 8
+
+Benling Aura - Benling India - Aura - 9
+
+Ampere Magnus Pro - Ampere Vehicles - Magnus Pro - 10 */
+
+
+
+
+
+/* Tata Nexon EV - Tata Motors - Nexon EV - 1
+
+MG ZS EV - MG Motor - ZS EV - 2
+
+Hyundai Kona Electric - Hyundai - Kona Electric - 3
+
+Mahindra e2o Plus - Mahindra Electric - e2o Plus - 4
+
+Tata Tigor EV - Tata Motors - Tigor EV - 5
+
+Audi e-tron - Audi - e-tron - 6
+
+Mercedes-Benz EQC - Mercedes-Benz - EQC - 7
+
+BMW i3 - BMW - i3 - 8
+
+Jaguar I-PACE - Jaguar - I-PACE - 9
+
+Porsche Taycan - Porsche - Taycan - 10 */

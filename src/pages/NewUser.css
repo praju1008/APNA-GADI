@@ -1,0 +1,154 @@
+/* Overall container styling */
+.new-user-container {
+    background: url('../assets/bg.png') no-repeat center center/cover; /* Cover the full screen */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background overlay */
+  }
+  
+  /* Form styling */
+  .new-user-form {
+    background-color: rgba(0, 0, 0, 0.5); /* Slightly transparent background */
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Slight shadow to keep visibility */
+    max-width: 500px;
+    width: 100%;
+    backdrop-filter: blur(10px); /* Light blur effect */
+    text-align: center;
+  }
+  
+  /* Form header */
+  .form-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    gap: 15px;
+  }
+  
+  .form-icon {
+    font-size: 50px;
+    color: #ffd700; /* Golden color */
+  }
+  
+  .form-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffd700;
+  }
+  
+  /* Input fields styling */
+  .form-input {
+    margin-bottom: 20px;
+  }
+  
+  .form-input input {
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border */
+    font-size: 1.1rem;
+    background-color: rgba(0, 0, 0, 0.3); /* Transparent background for input fields */
+    color: #fff; /* Text color */
+    margin-top: 10px;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .form-input input::placeholder {
+    color: #fff; /* Placeholder text color set to white */
+  }
+  
+  .form-input input:focus {
+    border-color: #ffd700;
+    outline: none;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
+  }
+  
+  /* Add space between password input and submit button */
+  .form-input.password {
+    margin-bottom: 30px; /* Added space between password and submit button */
+  }
+  
+/* Sign-up Button Styling */
+.submit-button {
+    background-color: #ffd700 !important; /* Yellow color by default */
+    color: #000;
+    font-weight: bold;
+    padding: 14px 28px;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    letter-spacing: 1px;
+    margin-top: 10px; /* Move the button slightly down */
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.8) !important; /* Add !important to ensure the glow effect is applied */
+}
+
+/* Hover effect for the button */
+.submit-button:hover {
+    background-color: #ffcc00; /* Lighter yellow on hover */
+    transform: translateY(-5px); /* Button slightly moves up */
+    box-shadow: 0 0 20px rgba(255, 215, 0, 1) !important; /* Glowing effect on hover */
+}
+
+/* Focus effect for the button */
+.submit-button:focus {
+    box-shadow: 0 0 25px rgba(255, 215, 0, 1.2) !important; /* Intense glow when focused */
+}
+
+/* Active state when the button is clicked */
+.submit-button:active {
+    background-color: #e6b800; /* Darker yellow on click */
+    transform: translateY(2px); /* Subtle effect when clicked */
+}
+
+/* NewUser.css */
+.signin-link {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.signin-link:hover {
+  color: #ffd700; /* Brighter yellow on hover */
+  text-decoration: underline;
+}
+  
+  /* Success or error message styling */
+  .message {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: green;
+    font-weight: bold;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    .new-user-form {
+      padding: 30px;
+      margin: 10px;
+    }
+  
+    .form-header {
+      flex-direction: column;
+    }
+  
+    .form-icon {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+  
+    .form-title {
+      font-size: 2rem;
+    }
+  
+    .submit-button {
+      padding: 12px;
+      font-size: 1rem;
+    }
+  }

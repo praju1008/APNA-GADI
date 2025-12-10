@@ -1,0 +1,65 @@
+.careers-container {
+  width: 100vw;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #ffa500, #ffdd00); /* orange to yellow */
+  color: #000; /* black text */
+  padding: 0;
+  margin: 0;
+}
+
+.careers-hero {
+  background: linear-gradient(135deg, #ffcc00, #ff7043);
+  color: #000; /* Black text for contrast */
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.careers-hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.careers-hero p {
+  font-size: 22px;
+  margin: 0;
+}
+
+.careers-content {
+  width: 100%;
+  padding: 60px 80px;
+  box-sizing: border-box;
+  background-color:white; 
+  color: #000;
+}
+
+.careers-content p,
+.careers-content ul {
+  font-size: 20px;
+  line-height: 2;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+.careers-content ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.careers-content ul li {
+  font-size: 20px;
+  margin: 10px 0;
+}
+.careers-content ul li::before {
+  content: "✔️"; /* Checkmark */
+  margin-right: 10px;
+}
+.careers-content ul li::marker {
+  color: #ffcc00; /* Checkmark color */
+}
+.careers-content ul li::before {
+  font-size: 20px; /* Adjust size as needed */
+}
+.careers-content ul li::marker {
+  font-size: 20px; /* Adjust size as needed */
+}

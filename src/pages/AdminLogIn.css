@@ -1,0 +1,77 @@
+.admin-theme-container {
+    height: 100vh;
+    background-size: cover; /* Ensures the background image covers the entire screen */
+    background-position: center center; /* Centers the image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Slight dark overlay for better contrast */
+    backdrop-filter: blur(10px); /* Softer blur effect */
+  }
+  
+  .admin-theme-card {
+    padding: 3rem;
+    width: 100%;
+    max-width: 420px;
+    background: rgba(255, 255, 255, 0.1); /* More transparent */
+    border: 1.5px solid rgba(255, 215, 0, 0.6); /* Lighter border */
+    border-radius: 15px; /* Slightly rounded corners for a smoother feel */
+    backdrop-filter: blur(15px) saturate(150%);
+    -webkit-backdrop-filter: blur(15px) saturate(150%);
+    box-shadow: 0 10px 20px rgba(255, 215, 0, 0.2);
+    color: #ffffff;
+  }
+  
+  .admin-theme-title {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #ffd700;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+  }
+  
+  .admin-theme-input .MuiInputBase-root {
+    background-color: rgba(255, 255, 255, 0.15); /* Transparent glass base */
+    border-radius: 10px;
+    color: #070707;
+  }
+  
+  .admin-theme-input label {
+    color: #070707;
+  }
+  
+  .admin-theme-input .MuiOutlinedInput-notchedOutline {
+    border-color: rgba(255, 215, 0, 0.6);
+  }
+  
+  .admin-theme-input .Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #ffd700;
+  }
+  
+  .admin-theme-button {
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: rgba(255, 215, 0, 0.85) !important;
+    color: #000000 !important;
+    border-radius: 10px;
+    transition: 0.3s ease;
+  }
+  
+  .admin-theme-button:hover {
+    background-color: rgba(255, 204, 0, 1) !important;
+  }
+  
+  .admin-theme-link {
+    color: #ffd700;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .admin-theme-link:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  

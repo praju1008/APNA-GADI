@@ -1,0 +1,51 @@
+/* src/components/AdminNavbar.css */
+.admin-navbar-appbar {
+    background: black !important;
+    color: #ffd700 !important;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(255, 215, 0, 0.4);
+  }
+  
+  .admin-navbar-title {
+    flex-grow: 1;
+    font-weight: bold;
+    color: #ffd700;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+  }
+  
+  .admin-navbar-buttons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .admin-navbar-button {
+    color: #fff !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    font-size: 0.95rem;
+  }
+  
+  .admin-navbar-button:hover {
+    background-color: #ffd700 !important;
+    color: #000000 !important;
+    border-radius: 6px;
+  }
+  
+  .admin-menu-icon {
+    color: #ffd700 !important;
+  }
+  
+  .admin-navbar-menu .MuiPaper-root {
+    background-color: rgba(17, 17, 17, 0.9);
+    color: #ffd700;
+    border-radius: 8px;
+  }
+  
+  @media (max-width: 600px) {
+    .admin-navbar-button {
+      font-size: 0.8rem;
+    }
+  }
+  

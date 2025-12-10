@@ -1,0 +1,55 @@
+.navbar-appbar {
+    background: black !important; /* Transparent background */
+    color: #ffd700 !important; /* Yellow text */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    box-shadow: 0 4px 10px rgba(255, 215, 0, 0.4); /* Shadow for contrast */
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-title {
+    flex-grow: 1;
+    font-weight: bold;
+    color: #ffd700;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+  }
+  
+  .navbar-buttons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar-button {
+    color: #fff !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    font-size: 0.95rem;
+  }
+  
+  .navbar-button:hover {
+    background-color: #ffd700 !important;
+    color: #000000 !important;
+    border-radius: 6px;
+  }
+  
+  .menu-icon {
+    color: #ffd700 !important;
+  }
+  
+  .navbar-menu .MuiPaper-root {
+    background-color: rgba(17, 17, 17, 0.9); /* Darker background with transparency for mobile menu */
+    color: #ffd700;
+    border-radius: 8px;
+  }
+  
+  @media (max-width: 600px) {
+    .navbar-button {
+      font-size: 0.8rem;
+    }
+  }
+  
