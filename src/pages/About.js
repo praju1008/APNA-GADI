@@ -55,7 +55,7 @@ const AboutUs = () => {
         </p>
         <p>
           For any inquiries, suggestions, or partnerships, please feel free to reach out to us. We are always here to listen and assist you in any way we can.<br />
-          For collaborations, feedback, or support, feel free to reach out to our team anytime at <strong>apnagadi@gmail.com</strong> or call us at <strong>+91 98765 43210</strong>. We're here to help you 24/7.
+          For collaborations, feedback, or support, feel free to reach out to our team anytime at <strong>apnagadi@gmail.com</strong> or call us at <strong>+919008269890</strong>. We're here to help you 24/7.
         </p>
           </motion.div>
       </section>

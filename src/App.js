@@ -43,7 +43,7 @@ const App = () => {
       <Layout>
         <Routes>
           {/* Default route redirects to Home */}
-          <Route path="/" element={<Navigate to="/home" />} />
+          <Route path="/home" element={<Navigate to="/home" />} />
           <Route path="/signin" element={<SignIn />} />
           <Route path="/book" element={<Book />} />
           <Route path="/home" element={<Home />} />
@@ -52,7 +52,7 @@ const App = () => {
           <Route path="/adminadd-vehicle" element={<AddVehicle />} />
           <Route path="/adminview-booking" element={<ViewBooking />} />
           <Route path="/newuser" element={<NewUser />} />
-          <Route path="/UserDashboard" element={<UserDashboard />} />
+          <Route path="/" element={<UserDashboard />} />
           <Route path="/about" element={<About />} />
           <Route path="/careers" element={<Careers />} /> {/* Added Careers page route */}
           <Route path="/privacy-policy" element={<PrivacyPolicy />} /> {/* Added Privacy Policy page route */}
