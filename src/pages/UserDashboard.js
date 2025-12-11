@@ -169,7 +169,7 @@ const UserDashboard = () => {
             <h3>Follow Us</h3>
             <div className="social-icons">
               <a href="https://github.com/praju1008">Github</a>
-              <a href="https://www.instagram.com/https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=i0i8ulm/">Instagram</a>
+              <a href="https://www.instagram.com/mr._.p_r_a_j_w_a_l_20?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a>
               <a href="https://share.google/W1BdzJ1yN9Pktr7DW">Twitter</a>
               <a href="http://linkedin.com/in/prajwal-m-3263b11b0">
                 LinkedIn
