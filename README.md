@@ -85,19 +85,6 @@ npm start
 4. **Open the app**
 Visit `http://localhost:3000` in your browser.
 
----
-
-## 🖼️ Screenshots
-
-_Add screenshots of your Home page, Booking flow, and Admin Dashboard here to make the repo more visually appealing to recruiters._
-
-```
-![Home Page](screenshots/home.png)
-![Booking Flow](screenshots/booking.png)
-![Admin Dashboard](screenshots/admin-dashboard.png)
-```
-
----
 
 ## 🚀 Future Improvements
 
